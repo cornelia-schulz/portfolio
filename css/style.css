@@ -1,0 +1,51 @@
+body {
+    color: #747704;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+.text-muted {
+    color: #BCBBBB;
+}
+
+.text-thin {
+    font-weight: 100;
+}
+
+.font-large {
+    font-size: 3.5em;
+}
+
+.font-medium {
+    font-size: 2.5em;
+}
+
+.font-small {
+    font-size: 1.5em;
+}
+
+.font-xsmall {
+    font-size: 1.1em;
+}
+
+.logo {
+    height: 120px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+hr {
+    color:#BCBBBB;
+    background-color: #BCBBBB;
+    height: 4px;
+}
+
+.portfolio-header {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.center-image {
+    width: 100%;
+}
+
