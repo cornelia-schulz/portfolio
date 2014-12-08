@@ -72,6 +72,10 @@ hr {
     margin-top: 20px;
 }
 
+.portfolio {
+    margin: 0 auto;
+}
+
 .portfolio:hover {
     border: 1px solid black;
     cursor: pointer;
