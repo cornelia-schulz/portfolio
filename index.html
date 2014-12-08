@@ -7,108 +7,220 @@
 
     <title>Portfolio</title>
 
-    <link href='//fonts.googleapis.com/css?family=Lato:100,300%7CRaleway:100,300' rel='stylesheet'>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon" type="image/ico" href="images/favicon.ico" />
+    <link href='//fonts.googleapis.com/css?family=Lato:100,300' rel='stylesheet'>
+    <!--<link rel="stylesheet" href="css/bootstrap.min.css">-->
+    <link rel="stylesheet" href="css/build/style.css">
+    <link rel="shortcut icon" type="image/ico" href="images/favicon.ico"/>
 
-    <script type="text/javascript" src="js/jquery-1.11.1.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
 
 </head>
 <body>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6"><a href="index.html"> <img class="img-responsive logo" src="images/logo.png" alt="Logo"></a></div>
-            <div class="col-md-6 text-uppercase text-right font-green">
-                <h1 class="text-thin font-large">Cornelia Schulz</h1>
-                <h4 class="font-small">Front-end Developer</h4>
-            </div>
-        </div>
-        <div class="row">
-            <hr>
-        </div>
-        <div class="row">
-            <div class="col-md-12">
-                <img class="img-responsive center-image" src="images/peacock.jpg" alt="html">
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-12 text-muted font-medium portfolio-header">
-                <h2>Featured Work</h2>
-            </div>
-        </div>
-        <div class="row text-center">
-            <div class="col-md-4 font-green">
-                <img class="img-responsive" src="images/kea.jpg" alt="Photo Site" data-toggle="modal" data-target="#project1">
-                <h3 class="text-uppercase font-medium">Project 1</h3>
-                <p class="font-xsmall"><a href="https://github.com/firzhugh/my-website" target="_blank">Photo Site</a></p>
-            </div>
-            <div class="col-md-4 font-green">
-                <img class="img-responsive" src="images/taiko.jpg" alt="Stein Schere Papier" data-toggle="modal" data-target="#project2">
-                <h3 class="text-uppercase font-medium">Project 2</h3>
-                <p class="font-xsmall"><a href="https://github.com/firzhugh/stein-schere-papier" target="_blank">Game</a> </p>
-            </div>
-            <div class="col-md-4 font-green">
-                <img class="img-responsive" src="images/sunset.jpg" alt="Rock Paper Scissors" data-toggle="modal" data-target="#project3">
-                <h3 class="text-uppercase font-medium">Project 3</h3>
-                <p class="font-xsmall"><a href="https://github.com/firzhugh/rock-paper-scissors" target="_blank">Game</a> </p>
-            </div>
-        </div>
-    </div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6"><a href="index.html"> <img class="img-responsive logo" src="images/logo.png"
+                                                         alt="Logo"></a></div>
+        <div class="col-md-6 text-uppercase text-right font-green">
+            <h1 class="text-thin font-large">Cornelia Schulz</h1>
+            <h4 class="font-small">Front-end Developer</h4>
 
-    <!-- Modal -->
-    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <a href="#" data-dismiss="modal" class="close">Close</a>
-                    <h4 class="modal-title font-medium text-center" id="myModalLabel1">Cornelia Schulz Photography</h4>
-                </div>
-                <div class="modal-body">
-                    <img class="img-responsive" src="images/cornelia-schulz-photography.png" alt="Cornelia Schulz Photography">
-                    <p class="font-xsmall project-description text-center">This is my personal website and it was my first project. I learned a lot about HTML and CSS in the process of building this site. There are still many more features I would like to add in the future.</p>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <a href="#" data-dismiss="modal" class="close">Close</a>
-                    <h4 class="modal-title font-medium text-center" id="myModalLabel2">Stein Schere Papier</h4>
-                </div>
-                <div class="modal-body">
-                    <img class="img-responsive" src="images/stein-schere-papier.png" alt="Stein Schere Papier">
-                    <p class="font-xsmall project-description text-center">This is the enjoyable Rock Paper Scissors game in German. I built this game to learn more about Javascript.</p>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <a href="#" data-dismiss="modal" class="close">Close</a>
-                    <h4 class="modal-title font-medium text-center" id="myModalLabel3">Rock Paper Scissors</h4>
-                </div>
-                <div class="modal-body">
-                    <img class="img-responsive" src="images/rock-paper-scissors.png" alt="Rock Paper Scissors">
-                    <p class="font-xsmall project-description text-center">This is the enjoyable Rock Paper Scissors game. I built this game to learn more about Javascript.</p>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                </div>
-            </div>
-        </div>
-    </div>
+            <p><a href="http://firzhugh.github.io/resume/" target="_blank">Resume >></a></p>
 
+        </div>
+    </div>
+    <div class="row">
+        <hr>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <img class="img-responsive center-image" src="images/peacock.jpg" alt="html">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12 text-muted font-medium portfolio-header">
+            <h2>Featured Work</h2>
+        </div>
+    </div>
+    <div class="row text-center">
+        <div class="col-md-4 font-green">
+            <img class="img-responsive portfolio" src="images/kea.jpg" alt="Photo Site" data-toggle="modal"
+                 data-target="#project1">
+
+            <h3 class="text-uppercase font-medium">Photo Site</h3>
+
+            <p class="font-xsmall"><a href="http://www.cornelia-schulz-photography.com" target="_blank">www.cornelia-schulz-photography.com</a>
+            </p>
+        </div>
+        <div class="col-md-4 font-green">
+            <img class="img-responsive portfolio" src="images/taiko.jpg" alt="Resume" data-toggle="modal"
+                 data-target="#project2">
+
+            <h3 class="text-uppercase font-medium">Resume</h3>
+
+            <p class="font-xsmall"><a href="http://firzhugh.github.io/resume/" target="_blank">https://github.com/firzhugh/resume</a>
+            </p>
+        </div>
+        <div class="col-md-4 font-green">
+            <img class="img-responsive portfolio" src="images/sunset.jpg" alt="Rock Paper Scissors" data-toggle="modal"
+                 data-target="#project3">
+
+            <h3 class="text-uppercase font-medium">Frogger</h3>
+
+            <p class="font-xsmall"><a href="http://firzhugh.github.io/frogger/" target="_blank">https://github.com/firzhugh/frogger</a>
+            </p>
+        </div>
+    </div>
+    <div class="row text-center">
+        <div class="col-md-4 col-md-offset-2 font-green">
+            <img class="img-responsive portfolio" src="images/auckland.jpg" alt="Beaches in Auckland"
+                 data-toggle="modal" data-target="#project4">
+
+            <h3 class="text-uppercase font-medium">Map of Beaches</h3>
+
+            <p class="font-xsmall"><a href="http://firzhugh.github.io/neighbourhood-map/" target="_blank">https://github.com/firzhugh/neighbourhood-map</a>
+            </p>
+        </div>
+        <div class="col-md-4 font-green">
+            <img class="img-responsive portfolio" src="images/taupo.jpg" alt="Rock Paper Scissors" data-toggle="modal"
+                 data-target="#project5">
+
+            <h3 class="text-uppercase font-medium">Rock, Paper, Scissors</h3>
+
+            <p class="font-xsmall"><a href="https://github.com/firzhugh/rock-paper-scissors" target="_blank">https://github.com/firzhugh/rock-paper-scissors</a>
+            </p>
+        </div>
+    </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <a href="#" data-dismiss="modal" class="close"><img src="images/close-icon.jpg" alt="close"></a>
+                <h4 class="modal-title font-medium text-center" id="myModalLabel1">Cornelia Schulz Photography</h4>
+            </div>
+            <div class="modal-body">
+                <img class="img-responsive" src="images/cornelia-schulz-photography.png"
+                     alt="Cornelia Schulz Photography">
+
+                <p class="font-xsmall project-description text-center">This is my personal website and was one my very
+                    first project. The site is built using HTML, CSS and JavaScript. There are still many more features
+                    I would like to add in the future.</p>
+
+                <p>
+                    <a href="https://github.com/firzhugh/my-website" target="_blank">Go to Github Repository
+                        >>></a><br/>
+                    <a href="http://www.cornelia-schulz-photography.com" target="_blank">Go to the site >>></a>
+                </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <a href="#" data-dismiss="modal" class="close"><img src="images/close-icon.jpg" alt="close"></a>
+                <h4 class="modal-title font-medium text-center" id="myModalLabel2">Resume</h4>
+            </div>
+            <div class="modal-body">
+                <img class="img-responsive" src="images/resume.jpg" alt="Resume">
+
+                <p class="font-xsmall project-description text-center">This is my resume built with HTML, CSS,
+                    JavaScript & jQuery</p>
+
+                <p>
+                    <a href="https://github.com/firzhugh/resume" target="_blank">Go to Github Repository >>></a><br/>
+                    <a href="http://firzhugh.github.io/resume/" target="_blank">View Resume >>></a>
+                </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <a href="#" data-dismiss="modal" class="close"><img src="images/close-icon.jpg" alt="close"></a>
+                <h4 class="modal-title font-medium text-center" id="myModalLabel3">Frogger</h4>
+            </div>
+            <div class="modal-body">
+                <img class="img-responsive" src="images/frogger.jpg" alt="Frogger">
+
+                <p class="font-xsmall project-description text-center">This is my take on the classic arcade game
+                    Frogger. I built the game using HTML Canvas, CSS, JavaScript and jQuery.</p>
+
+                <p>
+                    <a href="https://github.com/firzhugh/frogger" target="_blank">Go to Github Repository >>></a><br/>
+                    <a href="http://firzhugh.github.io/frogger/" target="_blank">Play the Game >>></a>
+                </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="project4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel4" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <a href="#" data-dismiss="modal" class="close"><img src="images/close-icon.jpg" alt="close"></a>
+                <h4 class="modal-title font-medium text-center" id="myModalLabel4">Beaches</h4>
+            </div>
+            <div class="modal-body">
+                <img class="img-responsive" src="images/beaches.jpg" alt="Beaches in Auckland">
+
+                <p class="font-xsmall project-description text-center">This is a neighbourhood map showing beaches
+                    around Auckland pulling information from different APIs including Google Maps, Flickr and Wikipedia.
+                    For this project I used HTML, CSS, JavaScript, jQuery, Knockout and Ajax.</p>
+
+                <p>
+                    <a href="https://github.com/firzhugh/neighbourhood-map" target="_blank">Go to Github Repository
+                        >>></a><br/>
+                    <a href="http://firzhugh.github.io/neighbourhood-map/" target="_blank">Find a cool beach >>></a>
+                </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="project5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel5" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <a href="#" data-dismiss="modal" class="close"><img src="images/close-icon.jpg" alt="close"></a>
+                <h4 class="modal-title font-medium text-center" id="myModalLabel5">Rock Paper Scissors</h4>
+            </div>
+            <div class="modal-body">
+                <img class="img-responsive" src="images/rock-paper-scissors.png" alt="Rock Paper Scissors">
+
+                <p class="font-xsmall project-description text-center">This is the enjoyable Rock Paper Scissors game. I
+                    built this game to learn more about Javascript.</p>
+
+                <p>
+                    <a href="https://github.com/firzhugh/rock-paper-scissors" target="_blank">Go to Github Repository
+                        >>></a><br/>
+                    <a href="http://cornelias-rock-paper-scissors.herokuapp.com/" target="_blank">Play a Game >>></a>
+                </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script type="text/javascript" src="js/build/jquery-1.11.1.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
 </body>
 </html>
