@@ -1,6 +1,7 @@
-portfolio
+Cornelia Schulz Portfolio
 =========
 
-Portfolio for Udacity Front-end Developer Nanodegree
+This is a portfolio of my Frontend Development Projects. View the portfolio on:
 
-This is my version of the first project for the Udacity Front-end Developer Nanodegree.
+
+http://firzhugh.github.io/portfolio/
