@@ -4,6 +4,11 @@ body {
     font-weight: 100;
 }
 
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
 .text-muted {
     color: #BCBBBB;
 }
@@ -81,11 +86,30 @@ hr {
     cursor: pointer;
 }
 
+.modal-body {
+    text-align: center;
+}
+
+.modal-header .close {
+    float: right;
+    top: -10px;
+    margin-top: -30px;
+    margin-right: -30px;
+}
+
+.btn-close {
+    border-radius: 7%;
+    width: 15%;
+    background-color: #fff;
+}
+
+.btn-close:hover {
+    background-color: #747704;
+    color: #fff;
+}
+
 @media screen and (max-width: 400px) {
     .logo {
         display: none;
-    }
-    .portfolio {
-        margin: 0 auto;
     }
 }
