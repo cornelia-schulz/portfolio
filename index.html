@@ -7,8 +7,8 @@
 
     <title>Portfolio</title>
 
-    <link href='//fonts.googleapis.com/css?family=Lato:100,300' rel='stylesheet'>
-    <link rel="stylesheet" href="css/build/style.css">
+    <!--<link href='//fonts.googleapis.com/css?family=Lato:100,300' rel='stylesheet'>
+    <link rel="stylesheet" href="css/build/style.css">-->
     <link rel="shortcut icon" type="image/ico" href="images/favicon.ico"/>
 
 
@@ -218,7 +218,20 @@
     </div>
 </div>
 
-
+<script>
+    var links = ['//fonts.googleapis.com/css?family=Lato:100,300', 'css/style.css'];
+    for(var i = 0; i < links.length; i++){
+        var l = document.createElement('link');
+        l.rel = 'stylesheet';
+        l.href = links[i];
+        var h = document.getElementsByTagName('head')[0];
+        h.parentNode.insertBefore(l, h);
+    }
+    var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+            webkitRequestAnimationFrame || msRequestAnimationFrame;
+    if (raf) raf(cb);
+    else window.addEventListener('load', cb);
+</script>
 <script async type="text/javascript" src="js/build/jquery-1.11.1.js"></script>
 <script async type="text/javascript" src="js/bootstrap.min.js"></script>
 </body>
