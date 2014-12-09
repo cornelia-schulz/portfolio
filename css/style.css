@@ -79,11 +79,15 @@ hr {
 
 .portfolio {
     margin: 0 auto;
+    opacity: 1;
+    filter: alpha(opacity=100);
 }
 
 .portfolio:hover {
     border: 1px solid black;
     cursor: pointer;
+    opacity: 0.4;
+    filter: alpha(opacity=40);
 }
 
 .modal-body {
