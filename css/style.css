@@ -38,12 +38,12 @@ img {
 }
 
 a:link {
-    text-decoration: none;
+    /*text-decoration: none;*/
     color: #747704;
 }
 
 a:hover {
-    text-decoration: none;
+    /*text-decoration: none;*/
     color: #747704;
 }
 
