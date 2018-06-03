@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/firzhugh/portfolio.git"
+    "url": "https://github.com/cornelia-schulz/portfolio.git"
   },
   "keywords": [
     "portfolio",
@@ -24,9 +24,9 @@
   "author": "Cornelia Schulz",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/firzhugh/portfolio/issues"
+    "url": "https://github.com/cornelia-schulz/portfolio/issues"
   },
-  "homepage": "https://github.com/firzhugh/portfolio",
+  "homepage": "https://github.com/cornelia-schulz/portfolio",
   "devDependencies": {
     "grunt": "^0.4.5",
     "grunt-contrib-cssmin": "^0.10.0",
