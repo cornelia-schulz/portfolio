@@ -112,6 +112,15 @@ hr {
     color: #fff;
 }
 
+.img-responsive {
+    width: 100%;
+}
+
+.close, .modal-header .close {
+    margin: 0;
+    padding: 0;
+}
+
 @media screen and (max-width: 400px) {
     .logo {
         display: none;
